@@ -1,0 +1,3 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","9399","Complete shopping flow: login, browse books, add to cart, checkout, logout","chromium","2026-02-13","passed","2026-02-13","Demo Web Shop Shopping Flow","shopping-flow.spec.ts","",""
+"","6961","Complete shopping flow: login, browse books, add to cart, checkout, logout","chromium","2026-02-13","passed","2026-02-13","","shopping-flow.spec.ts","",""
