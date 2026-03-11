@@ -15,11 +15,11 @@ jobs:
           PLAYWRIGHT_SERVICE_URL: $(PLAYWRIGHT_SERVICE_URL)
           PLAYWRIGHT_SERVICE_RUN_ID: $(Build.DefinitionName) - $(Build.BuildNumber) - $(System.JobAttempt)
         inputs:
-          azureSubscription: 'vanita' # Service connection used to authenticate this pipeline with Azure to use the service
+          azureSubscription: 'subscriptionName' # Service connection used to authenticate this pipeline with Azure to use the service
           scriptType: 'pscore'
           scriptLocation: 'inlineScript'
           inlineScript: |
-            npx playwright test loginpage.spec.ts  --config=playwright.service.config.js           
+            npx playwright test  --config=playwright.service.config.js  --workers=20         
           addSpnToEnvironment: true
           
  
