@@ -1,0 +1,8 @@
+Filled text :PlaywrightUser@gmail.com into element :getByRole('textbox', { name: 'Email' })
+Filled text :Test@12345 into element :getByRole('textbox', { name: 'Password' })
+Clicked on the element',getByRole('button', { name: 'Log in' })
+Title of the page :Demo Web Shop
+search key :Photo
+Filled text :Photo into element :locator('//input[@id=\'small-searchterms\']')
+Clicked on the element',locator('.button-1.search-box-button')
+Count :2
