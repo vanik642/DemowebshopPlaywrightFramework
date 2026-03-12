@@ -31,7 +31,7 @@ jobs:
 
       # 5️⃣ Run Playwright Tests (HTML report will be generated in playwright-report)
       - name: Run Playwright Tests
-        run: npx playwright test tests/shopping-flow.spec.ts --config=playwright.config.ts
+        run: npx playwright test tests/loginpage.spec.ts --config=playwright.config.ts
 
       # 6️⃣ Generate Allure HTML Report
       - name: Generate Allure Report
@@ -128,5 +128,5 @@ jobs:
         run: |
           echo "Reports Published!"
           echo "Playwright Built-in: https://vanik642.github.io/DemowebshopPlaywrightFramework/playwright-report/index.html"
-          echo "Playwright HTML Reporter: https://vanik642.github.io/DemowebshopPlaywrightFramework/playwright-html-report/index.html"
           echo "Allure: https://vanik642.github.io/DemowebshopPlaywrightFramework/allure-report/index.html"
+
