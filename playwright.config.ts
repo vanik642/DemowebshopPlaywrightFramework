@@ -24,7 +24,7 @@ export default defineConfig({
     trace: 'on',
     screenshot: 'only-on-failure',
     video: 'on',
-    headless: false,
+    headless: true,
     baseURL:'https://demowebshop.tricentis.com',
   },
 
